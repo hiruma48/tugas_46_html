@@ -21,7 +21,7 @@ function buat_login(){
     label2.innerHTML= "Nomor Handphone";
     form.appendChild(label2);
     var input_nomerhandpone=document.createElement("input");
-    input_nomerhandpone.type="number";
+    input_nomerhandpone.type="text";
     input_nomerhandpone.name="Nomer Handphone";
     input_nomerhandpone.placeholder= "Nomer Handphone."
     input_nomerhandpone.className="form_login";
